@@ -1,0 +1,2 @@
+/home/drinkingcoder/Documents/rgbd-slam/partII/build/src/CMakeFiles/generate_pointcloud.dir
+/home/drinkingcoder/Documents/rgbd-slam/partII/build/src/CMakeFiles/main.dir
