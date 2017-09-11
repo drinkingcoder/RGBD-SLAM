@@ -1,7 +1,8 @@
-#include "slamBase.h"
+#include "../include/slamBase.h"
 
 namespace SLAMBase
 {
+
 	PointCloud::Ptr image2PointCloud(cv::Mat& rgb,cv::Mat& depth,CameraIntrinsicParameters& cameraK)
 	{
 		PointCloud::Ptr cloud( new PointCloud );
@@ -33,12 +34,12 @@ namespace SLAMBase
 		return cloud;
 	}
 
-	cv::Point3f point2dTo3d( cv::Point3f& point, CameraIntrinsicParameters& cameraK)
+	cv::Point3f point2dTo3d( cv::Point3f& point,const CameraIntrinsicParameters& cameraK)
 	{
 		cv::Point3f p;
 		p.z = double( point.z );
-		p.x = ( point.x - camera.cx ) * p.z / camera.fx;
-		p.y = ( point.y - camera.cy ) * p.z / camera.fy;
+		p.x = ( point.x - cameraK.cx ) * p.z / cameraK.fx;
+		p.y = ( point.y - cameraK.cy ) * p.z / cameraK.fy;
 		return p;
 	}
-};
+}
