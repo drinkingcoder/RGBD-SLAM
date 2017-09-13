@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/home/drinkingcoder/Documents/
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b60cb/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b60cb.dir/build.make CMakeFiles/cmTC_b60cb.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_627dd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_627dd.dir/build.make CMakeFiles/cmTC_627dd.dir/build
 make[1]: Entering directory `/home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b60cb.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_b60cb.dir/testCCompiler.c.o   -c /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_b60cb
-/home/drinkingcoder/Downloads/clion-2017.2.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b60cb.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b60cb.dir/testCCompiler.c.o  -o cmTC_b60cb 
+Building C object CMakeFiles/cmTC_627dd.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_627dd.dir/testCCompiler.c.o   -c /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_627dd
+/home/drinkingcoder/Documents/Libs/clion-2017.2.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_627dd.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_627dd.dir/testCCompiler.c.o  -o cmTC_627dd 
 make[1]: Leaving directory `/home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0f95f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0f95f.dir/build.make CMakeFiles/cmTC_0f95f.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_8ab33/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8ab33.dir/build.make CMakeFiles/cmTC_8ab33.dir/build
 make[1]: Entering directory `/home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0f95f.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_0f95f.dir/CMakeCCompilerABI.c.o   -c /home/drinkingcoder/Downloads/clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_0f95f
-/home/drinkingcoder/Downloads/clion-2017.2.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f95f.dir/link.txt --verbose=1
-/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_0f95f.dir/CMakeCCompilerABI.c.o  -o cmTC_0f95f 
+Building C object CMakeFiles/cmTC_8ab33.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8ab33.dir/CMakeCCompilerABI.c.o   -c /home/drinkingcoder/Documents/Libs/clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_8ab33
+/home/drinkingcoder/Documents/Libs/clion-2017.2.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ab33.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_8ab33.dir/CMakeCCompilerABI.c.o  -o cmTC_8ab33 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
@@ -59,8 +59,8 @@ Thread model: posix
 gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_0f95f' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_0f95f /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_0f95f.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_8ab33' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_8ab33 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_8ab33.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory `/home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -68,14 +68,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_0f95f/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_0f95f.dir/build.make CMakeFiles/cmTC_0f95f.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_8ab33/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_8ab33.dir/build.make CMakeFiles/cmTC_8ab33.dir/build]
   ignore line: [make[1]: Entering directory `/home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_0f95f.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_0f95f.dir/CMakeCCompilerABI.c.o   -c /home/drinkingcoder/Downloads/clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_0f95f]
-  ignore line: [/home/drinkingcoder/Downloads/clion-2017.2.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f95f.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_0f95f.dir/CMakeCCompilerABI.c.o  -o cmTC_0f95f ]
+  ignore line: [Building C object CMakeFiles/cmTC_8ab33.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_8ab33.dir/CMakeCCompilerABI.c.o   -c /home/drinkingcoder/Documents/Libs/clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_8ab33]
+  ignore line: [/home/drinkingcoder/Documents/Libs/clion-2017.2.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ab33.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_8ab33.dir/CMakeCCompilerABI.c.o  -o cmTC_8ab33 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
@@ -85,8 +85,8 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_0f95f' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_0f95f /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_0f95f.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_8ab33' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_8ab33 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_8ab33.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
     arg [--sysroot=/] ==> ignore
     arg [--build-id] ==> ignore
@@ -100,7 +100,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_0f95f] ==> ignore
+    arg [cmTC_8ab33] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
@@ -112,7 +112,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
-    arg [CMakeFiles/cmTC_0f95f.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_8ab33.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -146,14 +146,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_388df/fast"
-/usr/bin/make -f CMakeFiles/cmTC_388df.dir/build.make CMakeFiles/cmTC_388df.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_9ca43/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9ca43.dir/build.make CMakeFiles/cmTC_9ca43.dir/build
 make[1]: Entering directory `/home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_388df.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_388df.dir/feature_tests.c.o   -c /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_388df
-/home/drinkingcoder/Downloads/clion-2017.2.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_388df.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_388df.dir/feature_tests.c.o  -o cmTC_388df 
+Building C object CMakeFiles/cmTC_9ca43.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_9ca43.dir/feature_tests.c.o   -c /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_9ca43
+/home/drinkingcoder/Documents/Libs/clion-2017.2.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ca43.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_9ca43.dir/feature_tests.c.o  -o cmTC_9ca43 
 make[1]: Leaving directory `/home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -166,14 +166,14 @@ make[1]: Leaving directory `/home/drinkingcoder/Documents/rgbd-slam/partIII/cmak
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5fca1/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5fca1.dir/build.make CMakeFiles/cmTC_5fca1.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_1bf5f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1bf5f.dir/build.make CMakeFiles/cmTC_1bf5f.dir/build
 make[1]: Entering directory `/home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5fca1.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_5fca1.dir/feature_tests.c.o   -c /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_5fca1
-/home/drinkingcoder/Downloads/clion-2017.2.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5fca1.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5fca1.dir/feature_tests.c.o  -o cmTC_5fca1 
+Building C object CMakeFiles/cmTC_1bf5f.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_1bf5f.dir/feature_tests.c.o   -c /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_1bf5f
+/home/drinkingcoder/Documents/Libs/clion-2017.2.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1bf5f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1bf5f.dir/feature_tests.c.o  -o cmTC_1bf5f 
 make[1]: Leaving directory `/home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -186,14 +186,14 @@ make[1]: Leaving directory `/home/drinkingcoder/Documents/rgbd-slam/partIII/cmak
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_dff67/fast"
-/usr/bin/make -f CMakeFiles/cmTC_dff67.dir/build.make CMakeFiles/cmTC_dff67.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_a3766/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a3766.dir/build.make CMakeFiles/cmTC_a3766.dir/build
 make[1]: Entering directory `/home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_dff67.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_dff67.dir/feature_tests.c.o   -c /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_dff67
-/home/drinkingcoder/Downloads/clion-2017.2.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dff67.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_dff67.dir/feature_tests.c.o  -o cmTC_dff67 
+Building C object CMakeFiles/cmTC_a3766.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_a3766.dir/feature_tests.c.o   -c /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_a3766
+/home/drinkingcoder/Documents/Libs/clion-2017.2.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3766.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a3766.dir/feature_tests.c.o  -o cmTC_a3766 
 make[1]: Leaving directory `/home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -204,28 +204,28 @@ make[1]: Leaving directory `/home/drinkingcoder/Documents/rgbd-slam/partIII/cmak
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1bf3a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1bf3a.dir/build.make CMakeFiles/cmTC_1bf3a.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_49019/fast"
+/usr/bin/make -f CMakeFiles/cmTC_49019.dir/build.make CMakeFiles/cmTC_49019.dir/build
 make[1]: Entering directory `/home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_1bf3a.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_1bf3a.dir/testCXXCompiler.cxx.o -c /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_1bf3a
-/home/drinkingcoder/Downloads/clion-2017.2.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1bf3a.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_1bf3a.dir/testCXXCompiler.cxx.o  -o cmTC_1bf3a 
+Building CXX object CMakeFiles/cmTC_49019.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_49019.dir/testCXXCompiler.cxx.o -c /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_49019
+/home/drinkingcoder/Documents/Libs/clion-2017.2.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49019.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_49019.dir/testCXXCompiler.cxx.o  -o cmTC_49019 
 make[1]: Leaving directory `/home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4778b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4778b.dir/build.make CMakeFiles/cmTC_4778b.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_b5747/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b5747.dir/build.make CMakeFiles/cmTC_b5747.dir/build
 make[1]: Entering directory `/home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_4778b.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_4778b.dir/CMakeCXXCompilerABI.cpp.o -c /home/drinkingcoder/Downloads/clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_4778b
-/home/drinkingcoder/Downloads/clion-2017.2.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4778b.dir/link.txt --verbose=1
-/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_4778b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_4778b 
+Building CXX object CMakeFiles/cmTC_b5747.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_b5747.dir/CMakeCXXCompilerABI.cpp.o -c /home/drinkingcoder/Documents/Libs/clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_b5747
+/home/drinkingcoder/Documents/Libs/clion-2017.2.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5747.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_b5747.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b5747 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
@@ -235,8 +235,8 @@ Thread model: posix
 gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_4778b' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_4778b /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_4778b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b5747' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_b5747 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_b5747.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory `/home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -244,14 +244,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_4778b/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_4778b.dir/build.make CMakeFiles/cmTC_4778b.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_b5747/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_b5747.dir/build.make CMakeFiles/cmTC_b5747.dir/build]
   ignore line: [make[1]: Entering directory `/home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_4778b.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_4778b.dir/CMakeCXXCompilerABI.cpp.o -c /home/drinkingcoder/Downloads/clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_4778b]
-  ignore line: [/home/drinkingcoder/Downloads/clion-2017.2.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4778b.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_4778b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_4778b ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_b5747.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_b5747.dir/CMakeCXXCompilerABI.cpp.o -c /home/drinkingcoder/Documents/Libs/clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_b5747]
+  ignore line: [/home/drinkingcoder/Documents/Libs/clion-2017.2.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5747.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_b5747.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b5747 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
@@ -261,8 +261,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_4778b' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_4778b /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_4778b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b5747' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_b5747 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_b5747.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
     arg [--sysroot=/] ==> ignore
     arg [--build-id] ==> ignore
@@ -276,7 +276,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_4778b] ==> ignore
+    arg [cmTC_b5747] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
@@ -288,7 +288,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
-    arg [CMakeFiles/cmTC_4778b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_b5747.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -320,14 +320,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1y] compiler features compiled with the following output:
 Change Dir: /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e3769/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e3769.dir/build.make CMakeFiles/cmTC_e3769.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_617e8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_617e8.dir/build.make CMakeFiles/cmTC_617e8.dir/build
 make[1]: Entering directory `/home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_e3769.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1y -o CMakeFiles/cmTC_e3769.dir/feature_tests.cxx.o -c /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_e3769
-/home/drinkingcoder/Downloads/clion-2017.2.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3769.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_e3769.dir/feature_tests.cxx.o  -o cmTC_e3769 
+Building CXX object CMakeFiles/cmTC_617e8.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1y -o CMakeFiles/cmTC_617e8.dir/feature_tests.cxx.o -c /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_617e8
+/home/drinkingcoder/Documents/Libs/clion-2017.2.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_617e8.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_617e8.dir/feature_tests.cxx.o  -o cmTC_617e8 
 make[1]: Leaving directory `/home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -393,14 +393,14 @@ make[1]: Leaving directory `/home/drinkingcoder/Documents/rgbd-slam/partIII/cmak
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_631b5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_631b5.dir/build.make CMakeFiles/cmTC_631b5.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_6a0e2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6a0e2.dir/build.make CMakeFiles/cmTC_6a0e2.dir/build
 make[1]: Entering directory `/home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_631b5.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_631b5.dir/feature_tests.cxx.o -c /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_631b5
-/home/drinkingcoder/Downloads/clion-2017.2.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_631b5.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_631b5.dir/feature_tests.cxx.o  -o cmTC_631b5 
+Building CXX object CMakeFiles/cmTC_6a0e2.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_6a0e2.dir/feature_tests.cxx.o -c /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_6a0e2
+/home/drinkingcoder/Documents/Libs/clion-2017.2.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a0e2.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_6a0e2.dir/feature_tests.cxx.o  -o cmTC_6a0e2 
 make[1]: Leaving directory `/home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -466,14 +466,14 @@ make[1]: Leaving directory `/home/drinkingcoder/Documents/rgbd-slam/partIII/cmak
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5a95e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5a95e.dir/build.make CMakeFiles/cmTC_5a95e.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_73ea2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_73ea2.dir/build.make CMakeFiles/cmTC_73ea2.dir/build
 make[1]: Entering directory `/home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_5a95e.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_5a95e.dir/feature_tests.cxx.o -c /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_5a95e
-/home/drinkingcoder/Downloads/clion-2017.2.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a95e.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_5a95e.dir/feature_tests.cxx.o  -o cmTC_5a95e 
+Building CXX object CMakeFiles/cmTC_73ea2.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_73ea2.dir/feature_tests.cxx.o -c /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_73ea2
+/home/drinkingcoder/Documents/Libs/clion-2017.2.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73ea2.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_73ea2.dir/feature_tests.cxx.o  -o cmTC_73ea2 
 make[1]: Leaving directory `/home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -537,28 +537,28 @@ make[1]: Leaving directory `/home/drinkingcoder/Documents/rgbd-slam/partIII/cmak
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f4c4e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f4c4e.dir/build.make CMakeFiles/cmTC_f4c4e.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_44048/fast"
+/usr/bin/make -f CMakeFiles/cmTC_44048.dir/build.make CMakeFiles/cmTC_44048.dir/build
 make[1]: Entering directory `/home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f4c4e.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_f4c4e.dir/CheckIncludeFile.c.o   -c /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_f4c4e
-/home/drinkingcoder/Downloads/clion-2017.2.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4c4e.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f4c4e.dir/CheckIncludeFile.c.o  -o cmTC_f4c4e 
+Building C object CMakeFiles/cmTC_44048.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_44048.dir/CheckIncludeFile.c.o   -c /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_44048
+/home/drinkingcoder/Documents/Libs/clion-2017.2.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44048.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_44048.dir/CheckIncludeFile.c.o  -o cmTC_44048 
 make[1]: Leaving directory `/home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
 Change Dir: /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bc689/fast"
-/usr/bin/make -f CMakeFiles/cmTC_bc689.dir/build.make CMakeFiles/cmTC_bc689.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_4c157/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4c157.dir/build.make CMakeFiles/cmTC_4c157.dir/build
 make[1]: Entering directory `/home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bc689.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_bc689.dir/CheckFunctionExists.c.o   -c /home/drinkingcoder/Downloads/clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CheckFunctionExists.c
-Linking C executable cmTC_bc689
-/home/drinkingcoder/Downloads/clion-2017.2.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc689.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_bc689.dir/CheckFunctionExists.c.o  -o cmTC_bc689 -lpthread 
+Building C object CMakeFiles/cmTC_4c157.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_4c157.dir/CheckFunctionExists.c.o   -c /home/drinkingcoder/Documents/Libs/clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4c157
+/home/drinkingcoder/Documents/Libs/clion-2017.2.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c157.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_4c157.dir/CheckFunctionExists.c.o  -o cmTC_4c157 -lpthread 
 make[1]: Leaving directory `/home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 

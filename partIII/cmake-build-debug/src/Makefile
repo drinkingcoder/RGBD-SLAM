@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/drinkingcoder/Downloads/clion-2017.2.2/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/drinkingcoder/Documents/Libs/clion-2017.2.2/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/drinkingcoder/Downloads/clion-2017.2.2/bin/cmake/bin/cmake -E remove -f
+RM = /home/drinkingcoder/Documents/Libs/clion-2017.2.2/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-d
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/drinkingcoder/Downloads/clion-2017.2.2/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/drinkingcoder/Documents/Libs/clion-2017.2.2/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/drinkingcoder/Downloads/clion-2017.2.2/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/drinkingcoder/Documents/Libs/clion-2017.2.2/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -111,19 +111,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/CMakeFiles/detectFeatures.dir/rule:
-	cd /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/detectFeatures.dir/rule
-.PHONY : src/CMakeFiles/detectFeatures.dir/rule
+src/CMakeFiles/main.dir/rule:
+	cd /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/main.dir/rule
+.PHONY : src/CMakeFiles/main.dir/rule
 
 # Convenience name for target.
-detectFeatures: src/CMakeFiles/detectFeatures.dir/rule
+main: src/CMakeFiles/main.dir/rule
 
-.PHONY : detectFeatures
+.PHONY : main
 
 # fast build rule for target.
-detectFeatures/fast:
-	cd /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug && $(MAKE) -f src/CMakeFiles/detectFeatures.dir/build.make src/CMakeFiles/detectFeatures.dir/build
-.PHONY : detectFeatures/fast
+main/fast:
+	cd /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/build
+.PHONY : main/fast
 
 # Convenience name for target.
 src/CMakeFiles/slambase.dir/rule:
@@ -139,90 +139,6 @@ slambase: src/CMakeFiles/slambase.dir/rule
 slambase/fast:
 	cd /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug && $(MAKE) -f src/CMakeFiles/slambase.dir/build.make src/CMakeFiles/slambase.dir/build
 .PHONY : slambase/fast
-
-# Convenience name for target.
-src/CMakeFiles/generate_pointcloud.dir/rule:
-	cd /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/generate_pointcloud.dir/rule
-.PHONY : src/CMakeFiles/generate_pointcloud.dir/rule
-
-# Convenience name for target.
-generate_pointcloud: src/CMakeFiles/generate_pointcloud.dir/rule
-
-.PHONY : generate_pointcloud
-
-# fast build rule for target.
-generate_pointcloud/fast:
-	cd /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug && $(MAKE) -f src/CMakeFiles/generate_pointcloud.dir/build.make src/CMakeFiles/generate_pointcloud.dir/build
-.PHONY : generate_pointcloud/fast
-
-# Convenience name for target.
-src/CMakeFiles/main.dir/rule:
-	cd /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/main.dir/rule
-.PHONY : src/CMakeFiles/main.dir/rule
-
-# Convenience name for target.
-main: src/CMakeFiles/main.dir/rule
-
-.PHONY : main
-
-# fast build rule for target.
-main/fast:
-	cd /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/build
-.PHONY : main/fast
-
-detectFeatures.o: detectFeatures.cpp.o
-
-.PHONY : detectFeatures.o
-
-# target to build an object file
-detectFeatures.cpp.o:
-	cd /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug && $(MAKE) -f src/CMakeFiles/detectFeatures.dir/build.make src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.o
-.PHONY : detectFeatures.cpp.o
-
-detectFeatures.i: detectFeatures.cpp.i
-
-.PHONY : detectFeatures.i
-
-# target to preprocess a source file
-detectFeatures.cpp.i:
-	cd /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug && $(MAKE) -f src/CMakeFiles/detectFeatures.dir/build.make src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.i
-.PHONY : detectFeatures.cpp.i
-
-detectFeatures.s: detectFeatures.cpp.s
-
-.PHONY : detectFeatures.s
-
-# target to generate assembly for a file
-detectFeatures.cpp.s:
-	cd /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug && $(MAKE) -f src/CMakeFiles/detectFeatures.dir/build.make src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.s
-.PHONY : detectFeatures.cpp.s
-
-generatePointCloud.o: generatePointCloud.cpp.o
-
-.PHONY : generatePointCloud.o
-
-# target to build an object file
-generatePointCloud.cpp.o:
-	cd /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug && $(MAKE) -f src/CMakeFiles/generate_pointcloud.dir/build.make src/CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.o
-.PHONY : generatePointCloud.cpp.o
-
-generatePointCloud.i: generatePointCloud.cpp.i
-
-.PHONY : generatePointCloud.i
-
-# target to preprocess a source file
-generatePointCloud.cpp.i:
-	cd /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug && $(MAKE) -f src/CMakeFiles/generate_pointcloud.dir/build.make src/CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.i
-.PHONY : generatePointCloud.cpp.i
-
-generatePointCloud.s: generatePointCloud.cpp.s
-
-.PHONY : generatePointCloud.s
-
-# target to generate assembly for a file
-generatePointCloud.cpp.s:
-	cd /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug && $(MAKE) -f src/CMakeFiles/generate_pointcloud.dir/build.make src/CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.s
-.PHONY : generatePointCloud.cpp.s
 
 main.o: main.cpp.o
 
@@ -286,16 +202,8 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... detectFeatures"
-	@echo "... slambase"
-	@echo "... generate_pointcloud"
 	@echo "... main"
-	@echo "... detectFeatures.o"
-	@echo "... detectFeatures.i"
-	@echo "... detectFeatures.s"
-	@echo "... generatePointCloud.o"
-	@echo "... generatePointCloud.i"
-	@echo "... generatePointCloud.s"
+	@echo "... slambase"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

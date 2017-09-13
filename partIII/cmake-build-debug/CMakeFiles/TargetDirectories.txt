@@ -2,7 +2,5 @@
 /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
 /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/src/CMakeFiles/edit_cache.dir
-/home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/src/CMakeFiles/detectFeatures.dir
-/home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/src/CMakeFiles/slambase.dir
-/home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/src/CMakeFiles/generate_pointcloud.dir
 /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/src/CMakeFiles/main.dir
+/home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/src/CMakeFiles/slambase.dir

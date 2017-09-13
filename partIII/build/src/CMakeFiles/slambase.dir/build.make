@@ -53,15 +53,15 @@ src/CMakeFiles/slambase.dir/slamBase.cpp.o: src/CMakeFiles/slambase.dir/flags.ma
 src/CMakeFiles/slambase.dir/slamBase.cpp.o: ../src/slamBase.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/drinkingcoder/Documents/rgbd-slam/partIII/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/slambase.dir/slamBase.cpp.o"
-	cd /home/drinkingcoder/Documents/rgbd-slam/partIII/build/src && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/slambase.dir/slamBase.cpp.o -c /home/drinkingcoder/Documents/rgbd-slam/partIII/src/slamBase.cpp
+	cd /home/drinkingcoder/Documents/rgbd-slam/partIII/build/src && g++-5   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/slambase.dir/slamBase.cpp.o -c /home/drinkingcoder/Documents/rgbd-slam/partIII/src/slamBase.cpp
 
 src/CMakeFiles/slambase.dir/slamBase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/slambase.dir/slamBase.cpp.i"
-	cd /home/drinkingcoder/Documents/rgbd-slam/partIII/build/src && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/drinkingcoder/Documents/rgbd-slam/partIII/src/slamBase.cpp > CMakeFiles/slambase.dir/slamBase.cpp.i
+	cd /home/drinkingcoder/Documents/rgbd-slam/partIII/build/src && g++-5  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/drinkingcoder/Documents/rgbd-slam/partIII/src/slamBase.cpp > CMakeFiles/slambase.dir/slamBase.cpp.i
 
 src/CMakeFiles/slambase.dir/slamBase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/slambase.dir/slamBase.cpp.s"
-	cd /home/drinkingcoder/Documents/rgbd-slam/partIII/build/src && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/drinkingcoder/Documents/rgbd-slam/partIII/src/slamBase.cpp -o CMakeFiles/slambase.dir/slamBase.cpp.s
+	cd /home/drinkingcoder/Documents/rgbd-slam/partIII/build/src && g++-5  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/drinkingcoder/Documents/rgbd-slam/partIII/src/slamBase.cpp -o CMakeFiles/slambase.dir/slamBase.cpp.s
 
 src/CMakeFiles/slambase.dir/slamBase.cpp.o.requires:
 .PHONY : src/CMakeFiles/slambase.dir/slamBase.cpp.o.requires

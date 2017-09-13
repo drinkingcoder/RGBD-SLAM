@@ -1,3 +1,4 @@
+/home/drinkingcoder/Documents/rgbd-slam/partIII/build/src/CMakeFiles/detectFeatures.dir
 /home/drinkingcoder/Documents/rgbd-slam/partIII/build/src/CMakeFiles/generate_pointcloud.dir
 /home/drinkingcoder/Documents/rgbd-slam/partIII/build/src/CMakeFiles/main.dir
 /home/drinkingcoder/Documents/rgbd-slam/partIII/build/src/CMakeFiles/slambase.dir

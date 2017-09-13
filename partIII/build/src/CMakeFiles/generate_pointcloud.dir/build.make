@@ -53,15 +53,15 @@ src/CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.o: src/CMakeFiles/
 src/CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.o: ../src/generatePointCloud.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/drinkingcoder/Documents/rgbd-slam/partIII/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.o"
-	cd /home/drinkingcoder/Documents/rgbd-slam/partIII/build/src && g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.o -c /home/drinkingcoder/Documents/rgbd-slam/partIII/src/generatePointCloud.cpp
+	cd /home/drinkingcoder/Documents/rgbd-slam/partIII/build/src && g++-5   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.o -c /home/drinkingcoder/Documents/rgbd-slam/partIII/src/generatePointCloud.cpp
 
 src/CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.i"
-	cd /home/drinkingcoder/Documents/rgbd-slam/partIII/build/src && g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/drinkingcoder/Documents/rgbd-slam/partIII/src/generatePointCloud.cpp > CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.i
+	cd /home/drinkingcoder/Documents/rgbd-slam/partIII/build/src && g++-5  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/drinkingcoder/Documents/rgbd-slam/partIII/src/generatePointCloud.cpp > CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.i
 
 src/CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.s"
-	cd /home/drinkingcoder/Documents/rgbd-slam/partIII/build/src && g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/drinkingcoder/Documents/rgbd-slam/partIII/src/generatePointCloud.cpp -o CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.s
+	cd /home/drinkingcoder/Documents/rgbd-slam/partIII/build/src && g++-5  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/drinkingcoder/Documents/rgbd-slam/partIII/src/generatePointCloud.cpp -o CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.s
 
 src/CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.o.requires:
 .PHONY : src/CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.o.requires

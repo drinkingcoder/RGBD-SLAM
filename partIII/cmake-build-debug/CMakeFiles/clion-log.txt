@@ -1,4 +1,4 @@
-/home/drinkingcoder/Downloads/clion-2017.2.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/drinkingcoder/Documents/rgbd-slam/partIII
+/home/drinkingcoder/Documents/Libs/clion-2017.2.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/drinkingcoder/Documents/rgbd-slam/partIII
 -- Checking for module 'eigen3'
 --   Found eigen3, version 3.2.0
 -- Boost version: 1.54.0
@@ -543,9 +543,8 @@ but not all the files it references.
 -- looking for PCL_TRACKING
 -- looking for PCL_APPS
 -- Configuring done
-WARNING: Target "detectFeatures" requests linking to directory "/usr/lib".  Targets may link only to libraries.  CMake is dropping the item.
-WARNING: Target "detectFeatures" requests linking to directory "/usr/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "main" requests linking to directory "/usr/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "main" requests linking to directory "/usr/lib".  Targets may link only to libraries.  CMake is dropping the item.
 WARNING: Target "slambase" requests linking to directory "/usr/lib".  Targets may link only to libraries.  CMake is dropping the item.
-WARNING: Target "generate_pointcloud" requests linking to directory "/usr/lib".  Targets may link only to libraries.  CMake is dropping the item.
 -- Generating done
 -- Build files have been written to: /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug

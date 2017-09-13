@@ -1,6 +1,7 @@
 #include<iostream>
 #include<string>
 #include "../include/slamBase.h"
+#include "../include/Config.hpp"
 
 using namespace std;
 using namespace SLAMBase;
@@ -81,7 +82,7 @@ int main( int argc, char** argv )
 	}
 	for( size_t i=0;i <matches.size(); i++)
 	{
-		if( matches[i].distance < 6*minDis )
+		if( matches[i].distance < 10*minDis )
 			refinedMatches.push_back(matches[i]);
 	}
 	cout << "min dis = " << minDis << endl;

@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/drinkingcoder/Downloads/clion-2017.2.2/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/drinkingcoder/Documents/Libs/clion-2017.2.2/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/drinkingcoder/Downloads/clion-2017.2.2/bin/cmake/bin/cmake -E remove -f
+RM = /home/drinkingcoder/Documents/Libs/clion-2017.2.2/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -60,15 +60,15 @@ include src/CMakeFiles/detectFeatures.dir/flags.make
 src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.o: src/CMakeFiles/detectFeatures.dir/flags.make
 src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.o: ../src/detectFeatures.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.o"
-	cd /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/src && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/detectFeatures.dir/detectFeatures.cpp.o -c /home/drinkingcoder/Documents/rgbd-slam/partIII/src/detectFeatures.cpp
+	cd /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/src && g++-5  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/detectFeatures.dir/detectFeatures.cpp.o -c /home/drinkingcoder/Documents/rgbd-slam/partIII/src/detectFeatures.cpp
 
 src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/detectFeatures.dir/detectFeatures.cpp.i"
-	cd /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/src && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/drinkingcoder/Documents/rgbd-slam/partIII/src/detectFeatures.cpp > CMakeFiles/detectFeatures.dir/detectFeatures.cpp.i
+	cd /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/src && g++-5 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/drinkingcoder/Documents/rgbd-slam/partIII/src/detectFeatures.cpp > CMakeFiles/detectFeatures.dir/detectFeatures.cpp.i
 
 src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/detectFeatures.dir/detectFeatures.cpp.s"
-	cd /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/src && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/drinkingcoder/Documents/rgbd-slam/partIII/src/detectFeatures.cpp -o CMakeFiles/detectFeatures.dir/detectFeatures.cpp.s
+	cd /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/src && g++-5 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/drinkingcoder/Documents/rgbd-slam/partIII/src/detectFeatures.cpp -o CMakeFiles/detectFeatures.dir/detectFeatures.cpp.s
 
 src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.o.requires:
 

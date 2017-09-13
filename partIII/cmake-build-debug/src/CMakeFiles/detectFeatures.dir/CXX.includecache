@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+/home/drinkingcoder/Documents/rgbd-slam/partIII/include/Config.hpp
+sol.hpp
+-
+iostream
+-
+string
+-
+
 /home/drinkingcoder/Documents/rgbd-slam/partIII/include/slamBase.h
 fstream
 -
@@ -15,10 +23,18 @@ opencv2/core/core.hpp
 -
 opencv2/highgui/highgui.hpp
 -
+opencv2/features2d/features2d.hpp
+-
+opencv2/nonfree/nonfree.hpp
+-
+opencv2/calib3d/calib3d.hpp
+-
 pcl/io/pcd_io.h
 -
 pcl/point_types.h
 -
+Config.hpp
+/home/drinkingcoder/Documents/rgbd-slam/partIII/include/Config.hpp
 
 /home/drinkingcoder/Documents/rgbd-slam/partIII/src/detectFeatures.cpp
 iostream
@@ -27,6 +43,8 @@ string
 -
 ../include/slamBase.h
 /home/drinkingcoder/Documents/rgbd-slam/partIII/include/slamBase.h
+../include/Config.hpp
+/home/drinkingcoder/Documents/rgbd-slam/partIII/include/Config.hpp
 opencv2/features2d/features2d.hpp
 -
 opencv2/nonfree/nonfree.hpp

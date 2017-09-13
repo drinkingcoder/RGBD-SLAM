@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/drinkingcoder/Downloads/clion-2017.2.2/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/drinkingcoder/Documents/Libs/clion-2017.2.2/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/drinkingcoder/Downloads/clion-2017.2.2/bin/cmake/bin/cmake -E remove -f
+RM = /home/drinkingcoder/Documents/Libs/clion-2017.2.2/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -60,15 +60,15 @@ include src/CMakeFiles/main.dir/flags.make
 src/CMakeFiles/main.dir/main.cpp.o: src/CMakeFiles/main.dir/flags.make
 src/CMakeFiles/main.dir/main.cpp.o: ../src/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/main.dir/main.cpp.o"
-	cd /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/src && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/main.cpp.o -c /home/drinkingcoder/Documents/rgbd-slam/partIII/src/main.cpp
+	cd /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/src && g++-5  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/main.cpp.o -c /home/drinkingcoder/Documents/rgbd-slam/partIII/src/main.cpp
 
 src/CMakeFiles/main.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/main.cpp.i"
-	cd /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/src && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/drinkingcoder/Documents/rgbd-slam/partIII/src/main.cpp > CMakeFiles/main.dir/main.cpp.i
+	cd /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/src && g++-5 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/drinkingcoder/Documents/rgbd-slam/partIII/src/main.cpp > CMakeFiles/main.dir/main.cpp.i
 
 src/CMakeFiles/main.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/main.cpp.s"
-	cd /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/src && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/drinkingcoder/Documents/rgbd-slam/partIII/src/main.cpp -o CMakeFiles/main.dir/main.cpp.s
+	cd /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/src && g++-5 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/drinkingcoder/Documents/rgbd-slam/partIII/src/main.cpp -o CMakeFiles/main.dir/main.cpp.s
 
 src/CMakeFiles/main.dir/main.cpp.o.requires:
 
@@ -90,6 +90,148 @@ main_EXTERNAL_OBJECTS =
 
 ../bin/main: src/CMakeFiles/main.dir/main.cpp.o
 ../bin/main: src/CMakeFiles/main.dir/build.make
+../bin/main: ../lib/libslambase.a
+../bin/main: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.2.4.8
+../bin/main: /usr/lib/x86_64-linux-gnu/libopencv_ts.so.2.4.8
+../bin/main: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.2.4.8
+../bin/main: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.2.4.8
+../bin/main: /usr/lib/x86_64-linux-gnu/libopencv_contrib.so.2.4.8
+../bin/main: /usr/lib/x86_64-linux-gnu/libboost_system.so
+../bin/main: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+../bin/main: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+../bin/main: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+../bin/main: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
+../bin/main: /usr/lib/x86_64-linux-gnu/libboost_serialization.so
+../bin/main: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+../bin/main: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+../bin/main: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+../bin/main: /usr/lib/libpcl_common.so
+../bin/main: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a
+../bin/main: /usr/lib/libpcl_kdtree.so
+../bin/main: /usr/lib/libpcl_octree.so
+../bin/main: /usr/lib/libpcl_search.so
+../bin/main: /usr/lib/x86_64-linux-gnu/libqhull.so
+../bin/main: /usr/lib/libpcl_surface.so
+../bin/main: /usr/lib/libpcl_sample_consensus.so
+../bin/main: /usr/lib/libOpenNI.so
+../bin/main: /usr/lib/libOpenNI2.so
+../bin/main: /usr/lib/libpcl_io.so
+../bin/main: /usr/lib/libpcl_filters.so
+../bin/main: /usr/lib/libpcl_features.so
+../bin/main: /usr/lib/libpcl_keypoints.so
+../bin/main: /usr/lib/libpcl_registration.so
+../bin/main: /usr/lib/libpcl_segmentation.so
+../bin/main: /usr/lib/libpcl_recognition.so
+../bin/main: /usr/lib/libpcl_visualization.so
+../bin/main: /usr/lib/libpcl_people.so
+../bin/main: /usr/lib/libpcl_outofcore.so
+../bin/main: /usr/lib/libpcl_tracking.so
+../bin/main: /usr/lib/libpcl_apps.so
+../bin/main: /usr/lib/x86_64-linux-gnu/libboost_system.so
+../bin/main: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+../bin/main: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+../bin/main: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+../bin/main: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
+../bin/main: /usr/lib/x86_64-linux-gnu/libboost_serialization.so
+../bin/main: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+../bin/main: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+../bin/main: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+../bin/main: /usr/lib/x86_64-linux-gnu/libqhull.so
+../bin/main: /usr/lib/libOpenNI.so
+../bin/main: /usr/lib/libOpenNI2.so
+../bin/main: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a
+../bin/main: /usr/lib/libvtkGenericFiltering.so.5.8.0
+../bin/main: /usr/lib/libvtkGeovis.so.5.8.0
+../bin/main: /usr/lib/libvtkCharts.so.5.8.0
+../bin/main: /usr/lib/x86_64-linux-gnu/libopencv_nonfree.so.2.4.8
+../bin/main: /usr/lib/x86_64-linux-gnu/libopencv_ocl.so.2.4.8
+../bin/main: /usr/lib/x86_64-linux-gnu/libopencv_gpu.so.2.4.8
+../bin/main: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.2.4.8
+../bin/main: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.2.4.8
+../bin/main: /usr/lib/x86_64-linux-gnu/libopencv_legacy.so.2.4.8
+../bin/main: /usr/lib/x86_64-linux-gnu/libopencv_video.so.2.4.8
+../bin/main: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.2.4.8
+../bin/main: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.2.4.8
+../bin/main: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.2.4.8
+../bin/main: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.2.4.8
+../bin/main: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.8
+../bin/main: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.8
+../bin/main: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.8
+../bin/main: /usr/lib/libvtkViews.so.5.8.0
+../bin/main: /usr/lib/libvtkInfovis.so.5.8.0
+../bin/main: /usr/lib/libvtkWidgets.so.5.8.0
+../bin/main: /usr/lib/libvtkVolumeRendering.so.5.8.0
+../bin/main: /usr/lib/libvtkHybrid.so.5.8.0
+../bin/main: /usr/lib/libvtkParallel.so.5.8.0
+../bin/main: /usr/lib/libvtkRendering.so.5.8.0
+../bin/main: /usr/lib/libvtkImaging.so.5.8.0
+../bin/main: /usr/lib/libvtkGraphics.so.5.8.0
+../bin/main: /usr/lib/libvtkIO.so.5.8.0
+../bin/main: /usr/lib/libvtkFiltering.so.5.8.0
+../bin/main: /usr/lib/libvtkCommon.so.5.8.0
+../bin/main: /usr/lib/libvtksys.so.5.8.0
+../bin/main: /usr/lib/x86_64-linux-gnu/libboost_system.so
+../bin/main: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+../bin/main: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+../bin/main: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+../bin/main: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
+../bin/main: /usr/lib/x86_64-linux-gnu/libboost_serialization.so
+../bin/main: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+../bin/main: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+../bin/main: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+../bin/main: /usr/lib/libpcl_common.so
+../bin/main: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a
+../bin/main: /usr/lib/libpcl_kdtree.so
+../bin/main: /usr/lib/libpcl_octree.so
+../bin/main: /usr/lib/libpcl_search.so
+../bin/main: /usr/lib/x86_64-linux-gnu/libqhull.so
+../bin/main: /usr/lib/libpcl_surface.so
+../bin/main: /usr/lib/libpcl_sample_consensus.so
+../bin/main: /usr/lib/libOpenNI.so
+../bin/main: /usr/lib/libOpenNI2.so
+../bin/main: /usr/lib/libpcl_io.so
+../bin/main: /usr/lib/libpcl_filters.so
+../bin/main: /usr/lib/libpcl_features.so
+../bin/main: /usr/lib/libpcl_keypoints.so
+../bin/main: /usr/lib/libpcl_registration.so
+../bin/main: /usr/lib/libpcl_segmentation.so
+../bin/main: /usr/lib/libpcl_recognition.so
+../bin/main: /usr/lib/libpcl_visualization.so
+../bin/main: /usr/lib/libpcl_people.so
+../bin/main: /usr/lib/libpcl_outofcore.so
+../bin/main: /usr/lib/libpcl_tracking.so
+../bin/main: /usr/lib/libpcl_apps.so
+../bin/main: /usr/lib/x86_64-linux-gnu/libboost_system.so
+../bin/main: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+../bin/main: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+../bin/main: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+../bin/main: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
+../bin/main: /usr/lib/x86_64-linux-gnu/libboost_serialization.so
+../bin/main: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+../bin/main: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+../bin/main: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+../bin/main: /usr/lib/libpcl_common.so
+../bin/main: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a
+../bin/main: /usr/lib/libpcl_kdtree.so
+../bin/main: /usr/lib/libpcl_octree.so
+../bin/main: /usr/lib/libpcl_search.so
+../bin/main: /usr/lib/x86_64-linux-gnu/libqhull.so
+../bin/main: /usr/lib/libpcl_surface.so
+../bin/main: /usr/lib/libpcl_sample_consensus.so
+../bin/main: /usr/lib/libOpenNI.so
+../bin/main: /usr/lib/libOpenNI2.so
+../bin/main: /usr/lib/libpcl_io.so
+../bin/main: /usr/lib/libpcl_filters.so
+../bin/main: /usr/lib/libpcl_features.so
+../bin/main: /usr/lib/libpcl_keypoints.so
+../bin/main: /usr/lib/libpcl_registration.so
+../bin/main: /usr/lib/libpcl_segmentation.so
+../bin/main: /usr/lib/libpcl_recognition.so
+../bin/main: /usr/lib/libpcl_visualization.so
+../bin/main: /usr/lib/libpcl_people.so
+../bin/main: /usr/lib/libpcl_outofcore.so
+../bin/main: /usr/lib/libpcl_tracking.so
+../bin/main: /usr/lib/libpcl_apps.so
 ../bin/main: src/CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/main"
 	cd /home/drinkingcoder/Documents/rgbd-slam/partIII/cmake-build-debug/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)

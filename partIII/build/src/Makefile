@@ -99,6 +99,20 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+src/CMakeFiles/detectFeatures.dir/rule:
+	cd /home/drinkingcoder/Documents/rgbd-slam/partIII/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/detectFeatures.dir/rule
+.PHONY : src/CMakeFiles/detectFeatures.dir/rule
+
+# Convenience name for target.
+detectFeatures: src/CMakeFiles/detectFeatures.dir/rule
+.PHONY : detectFeatures
+
+# fast build rule for target.
+detectFeatures/fast:
+	cd /home/drinkingcoder/Documents/rgbd-slam/partIII/build && $(MAKE) -f src/CMakeFiles/detectFeatures.dir/build.make src/CMakeFiles/detectFeatures.dir/build
+.PHONY : detectFeatures/fast
+
+# Convenience name for target.
 src/CMakeFiles/generate_pointcloud.dir/rule:
 	cd /home/drinkingcoder/Documents/rgbd-slam/partIII/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/generate_pointcloud.dir/rule
 .PHONY : src/CMakeFiles/generate_pointcloud.dir/rule
@@ -139,6 +153,30 @@ slambase: src/CMakeFiles/slambase.dir/rule
 slambase/fast:
 	cd /home/drinkingcoder/Documents/rgbd-slam/partIII/build && $(MAKE) -f src/CMakeFiles/slambase.dir/build.make src/CMakeFiles/slambase.dir/build
 .PHONY : slambase/fast
+
+detectFeatures.o: detectFeatures.cpp.o
+.PHONY : detectFeatures.o
+
+# target to build an object file
+detectFeatures.cpp.o:
+	cd /home/drinkingcoder/Documents/rgbd-slam/partIII/build && $(MAKE) -f src/CMakeFiles/detectFeatures.dir/build.make src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.o
+.PHONY : detectFeatures.cpp.o
+
+detectFeatures.i: detectFeatures.cpp.i
+.PHONY : detectFeatures.i
+
+# target to preprocess a source file
+detectFeatures.cpp.i:
+	cd /home/drinkingcoder/Documents/rgbd-slam/partIII/build && $(MAKE) -f src/CMakeFiles/detectFeatures.dir/build.make src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.i
+.PHONY : detectFeatures.cpp.i
+
+detectFeatures.s: detectFeatures.cpp.s
+.PHONY : detectFeatures.s
+
+# target to generate assembly for a file
+detectFeatures.cpp.s:
+	cd /home/drinkingcoder/Documents/rgbd-slam/partIII/build && $(MAKE) -f src/CMakeFiles/detectFeatures.dir/build.make src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.s
+.PHONY : detectFeatures.cpp.s
 
 generatePointCloud.o: generatePointCloud.cpp.o
 .PHONY : generatePointCloud.o
@@ -218,11 +256,15 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... detectFeatures"
 	@echo "... edit_cache"
 	@echo "... generate_pointcloud"
 	@echo "... main"
 	@echo "... rebuild_cache"
 	@echo "... slambase"
+	@echo "... detectFeatures.o"
+	@echo "... detectFeatures.i"
+	@echo "... detectFeatures.s"
 	@echo "... generatePointCloud.o"
 	@echo "... generatePointCloud.i"
 	@echo "... generatePointCloud.s"
